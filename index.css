@@ -1,0 +1,176 @@
+#middle-class{
+	margin-top : 10%;
+}
+#mid-first{
+	width: 60%;
+
+}
+#pic-area{
+	width: 40%;
+}
+
+#reference{
+	display: flex;
+	width : 100%;
+	font: 0.7em;
+	color: grey;
+	justify-content: space-between;
+}
+#con{
+	margin-left: 2%;
+	margin-right : 2%;
+}
+#con div{
+	border-radius: 10px;
+}
+#left-ref{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+#footer{
+	width: 100%;
+	background: black;
+
+
+}
+#idea{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+#blackie{
+	background: #EEEEEE;
+	color: wheat;
+}
+#ga-im{
+	width: 100%;
+	height: 200px;
+}
+#i{
+	height: 270px;
+}
+#cards{
+	height: 500px;
+	
+}
+#btn{
+	width: 100%;
+}
+#options a{
+	flex: 0 0 auto;
+
+}
+
+#middle-class{
+	display: flex;
+	width: 100%;
+}
+
+
+.text{
+	animation: txt 8s infinite ease-out forwards;
+}
+.late{
+	color: midnightblue;
+	text-align: center;
+}
+.lated{
+	color: midnightblue;
+}
+
+@keyframes txt{
+	0%{
+		color: red;
+
+	}
+
+	35%{
+		color: greenyellow;
+	}
+	65%{
+		color: red;
+	}
+}
+#history{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+
+
+
+
+#contact-us div input{
+	width: 100%;
+	border:none;
+	border-bottom: black solid;
+}
+#contact-us div textarea{
+	width: 100%;
+}
+#contact-us div button{
+	width: 100%;
+}
+#section-image{
+	border-radius: 30%;
+
+}
+#a1{
+	width: 100%;
+	height: 300px;
+}
+#card_img{
+	height: 200px;
+	width: 100%;
+}
+#ure{
+	margin-left: 10%;
+	margin-right: 10%;
+	border: solid #EEEEEE;
+	transform: translateY(-50%);
+	background: whitesmoke;
+}
+#partners{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+#partner_image{
+	width: 20%;
+
+	height: 40px;
+}
+
+@media only screen and (max-width : 750px) {
+
+    #bg-nav {
+            display : none
+
+    }
+    #idea {
+    
+        display : block
+    }
+    #small-flexer {
+        display : flex;
+        width : 100%;
+        justify-content : space-between;
+    
+    }
+    #section-image {
+       width : 100%
+    }
+    #mid-first {
+        width : 100%
+            
+    }
+    #ure{
+	   
+	        border: solid #EEEEEE;
+	        transform: translateY(-20%);
+	        background: whitesmoke;
+            }
+}
