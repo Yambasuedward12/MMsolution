@@ -26,7 +26,7 @@
 				<a href="#section" class="text-light btn">Home</a>
 				<a href="#range" class="text-light btn">IT solutions</a>
 				<a href="#about-us" class="text-light btn">About Us</a>
-				<a href="#contact-us" class="text-light btn">Contact Us</a>
+				<a href="email.html" class="text-light btn">Contact Us</a>
 			</div>
 			<div>
 				<a class="btn btn-primary" href="#gallery">Gallery</a>
@@ -52,7 +52,7 @@
 				<a href="#section" class="text-light btn">Home</a>
 				<a href="#range" class="text-light btn">IT solutions</a>
 				<a href="#about-us" class="text-light btn">About Us</a>
-				<a href="#contact-us" class="text-light btn">Contact Us</a>
+				<a href="email.html" class="text-light btn">Contact Us</a>
 			</div>
 			<div>
 				<a class="btn btn-primary" href="#gallery">Gallery</a>
@@ -316,18 +316,23 @@
 		<div class="row"> 
 				<div class="col-md-6 order-md-1"><img id="contact" src="images/5.jpg"></div>
 				<div class="col-md-6 order-md-2">
-					<h4 class="text-center text-primary">Send us a Business Message</h4>
+					<div class="container">
+    <h1>Contact Form</h1>
+    <form id="contact-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="user_name" required>
 
-					<input type="email" id="email" class="form-control" placeholder="Enter your email address"><br><br>
-					<input type = "text" id="subject" class="form-control" placeholder="Enter Message Subject"><br><br>
-					<textarea rows = "8" id="message" class="form-control" placeholder="type your message"></textarea>
-					<br>
-					<br>
-					<button class="btn btn-warning" id="submit">Submit</button>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="user_email" required>
 
-                    <h6>Telephone : +231 776 554 198</h6>
-                    <h6>Email : solutionmm@gmail.com</h6>
-                    <h6>mitch583@gmail.com</h6>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Email</button>
+    </form>
+
+    <div id="response-message" class="message"></div>
+  </div>
 
 				</div>
 			</div>
@@ -375,9 +380,9 @@
 
 
 						<div class="col-md-4 order-md-1 bg-white" id="i">
-						<img src="images/dom.jpg" id="ga-im">
+						<img src="images/8.jpg" id="ga-im">
 						<hr>
-						<h6 class="text-center text-dark"></h6>
+						<h6 class="text-center text-dark">Tower Installation</h6>
 					</div>
 
 						<div class="col-md-4 order-md-1 bg-white" id="i">
@@ -395,11 +400,7 @@
 <br>
 
 <div id="footer">
-	<h6 class="text-center text-light">Copyright &copy 2024; Designed by Edward S. Yambasu
-	</h6>
-
-     <h6 class ="text-light text-center">Telephone : +231 776 554 198; Email : solutionmm@gmail.com; mitch583@gmail.com</h6>
-                   
+	<h6 class="text-center text-light">Copyright &copy 2024; Designed by Edward S. Yambasu</h6>
 </div>
 
 
@@ -411,5 +412,8 @@
 
 
     <script  src="index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
