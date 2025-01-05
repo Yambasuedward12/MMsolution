@@ -23,6 +23,13 @@
       border-color: #4e73df;
       outline: none;
     }
+    
+    .next_page{
+      width : 100%;
+      display : "flex";
+      justify-content: center;
+      align-items: center;
+    }
 
     textarea {
       resize: vertical;
